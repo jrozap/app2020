@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet3" targetNamespace="http://tempuri.org/DataSet3.xsd" xmlns:mstns="http://tempuri.org/DataSet3.xsd" xmlns="http://tempuri.org/DataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MasterAPVConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="MasterAPVConnectionString (MySettings)" PropertyReference="ApplicationSettings.APP2020.My.MySettings.GlobalReference.Default.MasterAPVConnectionString" Provider="System.Data.OleDb">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MatCompDDTableAdapter" GeneratorDataComponentClassName="MatCompDDTableAdapter" Name="MatCompDD" UserDataComponentName="MatCompDDTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MasterAPVConnectionString (MySettings)" DbObjectName="MatCompDD" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="False">
+                    <CommandText>SELECT CodigoMatC, DescMMat, DescMatC, Unidad, Cantidad, Precio, AGRUPACION FROM MatCompDD</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CodigoMatC" DataSetColumn="CodigoMatC" />
+              <Mapping SourceColumn="DescMMat" DataSetColumn="DescMMat" />
+              <Mapping SourceColumn="DescMatC" DataSetColumn="DescMatC" />
+              <Mapping SourceColumn="Unidad" DataSetColumn="Unidad" />
+              <Mapping SourceColumn="Cantidad" DataSetColumn="Cantidad" />
+              <Mapping SourceColumn="Precio" DataSetColumn="Precio" />
+              <Mapping SourceColumn="AGRUPACION" DataSetColumn="AGRUPACION" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet3" msprop:Generator_DataSetName="DataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MatCompDD" msprop:Generator_UserTableName="MatCompDD" msprop:Generator_RowDeletedName="MatCompDDRowDeleted" msprop:Generator_TableClassName="MatCompDDDataTable" msprop:Generator_RowChangedName="MatCompDDRowChanged" msprop:Generator_RowClassName="MatCompDDRow" msprop:Generator_RowChangingName="MatCompDDRowChanging" msprop:Generator_RowEvArgName="MatCompDDRowChangeEvent" msprop:Generator_RowEvHandlerName="MatCompDDRowChangeEventHandler" msprop:Generator_TablePropName="MatCompDD" msprop:Generator_TableVarName="tableMatCompDD" msprop:Generator_RowDeletingName="MatCompDDRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CodigoMatC" msprop:Generator_UserColumnName="CodigoMatC" msprop:Generator_ColumnPropNameInRow="CodigoMatC" msprop:Generator_ColumnVarNameInTable="columnCodigoMatC" msprop:Generator_ColumnPropNameInTable="CodigoMatCColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="DescMMat" msprop:Generator_UserColumnName="DescMMat" msprop:Generator_ColumnPropNameInRow="DescMMat" msprop:Generator_ColumnVarNameInTable="columnDescMMat" msprop:Generator_ColumnPropNameInTable="DescMMatColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="56" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DescMatC" msprop:Generator_UserColumnName="DescMatC" msprop:Generator_ColumnPropNameInRow="DescMatC" msprop:Generator_ColumnVarNameInTable="columnDescMatC" msprop:Generator_ColumnPropNameInTable="DescMatCColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="55" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unidad" msprop:Generator_UserColumnName="Unidad" msprop:Generator_ColumnPropNameInRow="Unidad" msprop:Generator_ColumnVarNameInTable="columnUnidad" msprop:Generator_ColumnPropNameInTable="UnidadColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cantidad" msprop:Generator_UserColumnName="Cantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Precio" msprop:Generator_UserColumnName="Precio" msprop:Generator_ColumnPropNameInRow="Precio" msprop:Generator_ColumnVarNameInTable="columnPrecio" msprop:Generator_ColumnPropNameInTable="PrecioColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="AGRUPACION" msprop:Generator_UserColumnName="AGRUPACION" msprop:Generator_ColumnPropNameInRow="AGRUPACION" msprop:Generator_ColumnVarNameInTable="columnAGRUPACION" msprop:Generator_ColumnPropNameInTable="AGRUPACIONColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="44" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

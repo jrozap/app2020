@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MaterialBCV" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MasterAPVConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="MasterAPVConnectionString (MySettings)" PropertyReference="ApplicationSettings.APP2020.My.MySettings.GlobalReference.Default.MasterAPVConnectionString" Provider="System.Data.OleDb">
+          </Connection>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MasterAPPConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="MasterAPPConnectionString (MySettings)" PropertyReference="ApplicationSettings.APP2020.My.MySettings.GlobalReference.Default.MasterAPPConnectionString" Provider="System.Data.OleDb">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MaterialBCVTableAdapter" GeneratorDataComponentClassName="MaterialBCVTableAdapter" Name="MaterialBCV" UserDataComponentName="MaterialBCVTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MasterAPPConnectionString (MySettings)" DbObjectName="MaterialBCV" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT        Codigo, Descripcion, Fecha, GrupoBCV, DescGBCV, [Año IPAC], IdGBCV, Unidad, Suplidor, PUBs, PorcDif, PUUSD, IPM01, IPM02, IPM03, IPM04, IPM05, IPM06, IPM07, IPM08, IPM09, IPM10, IPM11, IPM12
+FROM            MaterialBCV
+ORDER BY Codigo, GrupoBCV</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Codigo" DataSetColumn="Codigo" />
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+              <Mapping SourceColumn="Fecha" DataSetColumn="Fecha" />
+              <Mapping SourceColumn="GrupoBCV" DataSetColumn="GrupoBCV" />
+              <Mapping SourceColumn="DescGBCV" DataSetColumn="DescGBCV" />
+              <Mapping SourceColumn="Año IPAC" DataSetColumn="Año IPAC" />
+              <Mapping SourceColumn="IdGBCV" DataSetColumn="IdGBCV" />
+              <Mapping SourceColumn="Unidad" DataSetColumn="Unidad" />
+              <Mapping SourceColumn="Suplidor" DataSetColumn="Suplidor" />
+              <Mapping SourceColumn="PUBs" DataSetColumn="PUBs" />
+              <Mapping SourceColumn="PorcDif" DataSetColumn="PorcDif" />
+              <Mapping SourceColumn="PUUSD" DataSetColumn="PUUSD" />
+              <Mapping SourceColumn="IPM01" DataSetColumn="IPM01" />
+              <Mapping SourceColumn="IPM02" DataSetColumn="IPM02" />
+              <Mapping SourceColumn="IPM03" DataSetColumn="IPM03" />
+              <Mapping SourceColumn="IPM04" DataSetColumn="IPM04" />
+              <Mapping SourceColumn="IPM05" DataSetColumn="IPM05" />
+              <Mapping SourceColumn="IPM06" DataSetColumn="IPM06" />
+              <Mapping SourceColumn="IPM07" DataSetColumn="IPM07" />
+              <Mapping SourceColumn="IPM08" DataSetColumn="IPM08" />
+              <Mapping SourceColumn="IPM09" DataSetColumn="IPM09" />
+              <Mapping SourceColumn="IPM10" DataSetColumn="IPM10" />
+              <Mapping SourceColumn="IPM11" DataSetColumn="IPM11" />
+              <Mapping SourceColumn="IPM12" DataSetColumn="IPM12" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MaterialBCV" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MaterialBCV" msprop:Generator_DataSetName="MaterialBCV">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MaterialBCV" msprop:Generator_UserTableName="MaterialBCV" msprop:Generator_RowDeletedName="MaterialBCVRowDeleted" msprop:Generator_TableClassName="MaterialBCVDataTable" msprop:Generator_RowChangedName="MaterialBCVRowChanged" msprop:Generator_RowClassName="MaterialBCVRow" msprop:Generator_RowChangingName="MaterialBCVRowChanging" msprop:Generator_RowEvArgName="MaterialBCVRowChangeEvent" msprop:Generator_RowEvHandlerName="MaterialBCVRowChangeEventHandler" msprop:Generator_TablePropName="_MaterialBCV" msprop:Generator_TableVarName="tableMaterialBCV" msprop:Generator_RowDeletingName="MaterialBCVRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Codigo" msprop:Generator_UserColumnName="Codigo" msprop:Generator_ColumnPropNameInRow="Codigo" msprop:Generator_ColumnVarNameInTable="columnCodigo" msprop:Generator_ColumnPropNameInTable="CodigoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descripcion" msprop:Generator_UserColumnName="Descripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="56" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fecha" msprop:Generator_UserColumnName="Fecha" msprop:Generator_ColumnPropNameInRow="Fecha" msprop:Generator_ColumnVarNameInTable="columnFecha" msprop:Generator_ColumnPropNameInTable="FechaColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="GrupoBCV" msprop:Generator_UserColumnName="GrupoBCV" msprop:Generator_ColumnPropNameInRow="GrupoBCV" msprop:Generator_ColumnVarNameInTable="columnGrupoBCV" msprop:Generator_ColumnPropNameInTable="GrupoBCVColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="DescGBCV" msprop:Generator_UserColumnName="DescGBCV" msprop:Generator_ColumnPropNameInRow="DescGBCV" msprop:Generator_ColumnVarNameInTable="columnDescGBCV" msprop:Generator_ColumnPropNameInTable="DescGBCVColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="44" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Año_x0020_IPAC" msprop:Generator_UserColumnName="Año IPAC" msprop:Generator_ColumnPropNameInRow="Año_IPAC" msprop:Generator_ColumnVarNameInTable="columnAño_IPAC" msprop:Generator_ColumnPropNameInTable="Año_IPACColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="IdGBCV" msprop:Generator_UserColumnName="IdGBCV" msprop:Generator_ColumnPropNameInRow="IdGBCV" msprop:Generator_ColumnVarNameInTable="columnIdGBCV" msprop:Generator_ColumnPropNameInTable="IdGBCVColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unidad" msprop:Generator_UserColumnName="Unidad" msprop:Generator_ColumnPropNameInRow="Unidad" msprop:Generator_ColumnVarNameInTable="columnUnidad" msprop:Generator_ColumnPropNameInTable="UnidadColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Suplidor" msprop:Generator_UserColumnName="Suplidor" msprop:Generator_ColumnPropNameInRow="Suplidor" msprop:Generator_ColumnVarNameInTable="columnSuplidor" msprop:Generator_ColumnPropNameInTable="SuplidorColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="48" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PUBs" msprop:Generator_UserColumnName="PUBs" msprop:Generator_ColumnPropNameInRow="PUBs" msprop:Generator_ColumnVarNameInTable="columnPUBs" msprop:Generator_ColumnPropNameInTable="PUBsColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="PorcDif" msprop:Generator_UserColumnName="PorcDif" msprop:Generator_ColumnPropNameInRow="PorcDif" msprop:Generator_ColumnVarNameInTable="columnPorcDif" msprop:Generator_ColumnPropNameInTable="PorcDifColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="PUUSD" msprop:Generator_UserColumnName="PUUSD" msprop:Generator_ColumnPropNameInRow="PUUSD" msprop:Generator_ColumnVarNameInTable="columnPUUSD" msprop:Generator_ColumnPropNameInTable="PUUSDColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="IPM01" msprop:Generator_UserColumnName="IPM01" msprop:Generator_ColumnPropNameInRow="IPM01" msprop:Generator_ColumnVarNameInTable="columnIPM01" msprop:Generator_ColumnPropNameInTable="IPM01Column" type="xs:double" minOccurs="0" />
+              <xs:element name="IPM02" msprop:Generator_UserColumnName="IPM02" msprop:Generator_ColumnPropNameInRow="IPM02" msprop:Generator_ColumnVarNameInTable="columnIPM02" msprop:Generator_ColumnPropNameInTable="IPM02Column" type="xs:double" minOccurs="0" />
+              <xs:element name="IPM03" msprop:Generator_UserColumnName="IPM03" msprop:Generator_ColumnPropNameInRow="IPM03" msprop:Generator_ColumnVarNameInTable="columnIPM03" msprop:Generator_ColumnPropNameInTable="IPM03Column" type="xs:double" minOccurs="0" />
+              <xs:element name="IPM04" msprop:Generator_UserColumnName="IPM04" msprop:Generator_ColumnPropNameInRow="IPM04" msprop:Generator_ColumnVarNameInTable="columnIPM04" msprop:Generator_ColumnPropNameInTable="IPM04Column" type="xs:double" minOccurs="0" />
+              <xs:element name="IPM05" msprop:Generator_UserColumnName="IPM05" msprop:Generator_ColumnPropNameInRow="IPM05" msprop:Generator_ColumnVarNameInTable="columnIPM05" msprop:Generator_ColumnPropNameInTable="IPM05Column" type="xs:double" minOccurs="0" />
+              <xs:element name="IPM06" msprop:Generator_UserColumnName="IPM06" msprop:Generator_ColumnPropNameInRow="IPM06" msprop:Generator_ColumnVarNameInTable="columnIPM06" msprop:Generator_ColumnPropNameInTable="IPM06Column" type="xs:double" minOccurs="0" />
+              <xs:element name="IPM07" msprop:Generator_UserColumnName="IPM07" msprop:Generator_ColumnPropNameInRow="IPM07" msprop:Generator_ColumnVarNameInTable="columnIPM07" msprop:Generator_ColumnPropNameInTable="IPM07Column" type="xs:double" minOccurs="0" />
+              <xs:element name="IPM08" msprop:Generator_UserColumnName="IPM08" msprop:Generator_ColumnPropNameInRow="IPM08" msprop:Generator_ColumnVarNameInTable="columnIPM08" msprop:Generator_ColumnPropNameInTable="IPM08Column" type="xs:double" minOccurs="0" />
+              <xs:element name="IPM09" msprop:Generator_UserColumnName="IPM09" msprop:Generator_ColumnPropNameInRow="IPM09" msprop:Generator_ColumnVarNameInTable="columnIPM09" msprop:Generator_ColumnPropNameInTable="IPM09Column" type="xs:double" minOccurs="0" />
+              <xs:element name="IPM10" msprop:Generator_UserColumnName="IPM10" msprop:Generator_ColumnPropNameInRow="IPM10" msprop:Generator_ColumnVarNameInTable="columnIPM10" msprop:Generator_ColumnPropNameInTable="IPM10Column" type="xs:double" minOccurs="0" />
+              <xs:element name="IPM11" msprop:Generator_UserColumnName="IPM11" msprop:Generator_ColumnPropNameInRow="IPM11" msprop:Generator_ColumnVarNameInTable="columnIPM11" msprop:Generator_ColumnPropNameInTable="IPM11Column" type="xs:double" minOccurs="0" />
+              <xs:element name="IPM12" msprop:Generator_UserColumnName="IPM12" msprop:Generator_ColumnPropNameInRow="IPM12" msprop:Generator_ColumnVarNameInTable="columnIPM12" msprop:Generator_ColumnPropNameInTable="IPM12Column" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

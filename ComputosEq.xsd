@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="CompEqp" targetNamespace="http://tempuri.org/DataSet5.xsd" xmlns:mstns="http://tempuri.org/DataSet5.xsd" xmlns="http://tempuri.org/DataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MasterAPVConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="MasterAPVConnectionString (MySettings)" PropertyReference="ApplicationSettings.APP2020.My.MySettings.GlobalReference.Default.MasterAPVConnectionString" Provider="System.Data.OleDb">
+          </Connection>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MasterAPPConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="MasterAPPConnectionString (MySettings)" PropertyReference="ApplicationSettings.APP2020.My.MySettings.GlobalReference.Default.MasterAPPConnectionString" Provider="System.Data.OleDb">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ComputoEQTableAdapter" GeneratorDataComponentClassName="ComputoEQTableAdapter" Name="ComputoEQ" UserDataComponentName="ComputoEQTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MasterAPPConnectionString (MySettings)" DbObjectName="ComputoEQ" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT        CodObr, NumeroPartida, CantidadDePartida, Codigo, Descripcion, Unidad, Cantidad, Costo, Depreciacion, CanTotal, BsTotal, CanUnitario, BsUnitario, Porcentaje, RecType, Dias
+FROM            ComputoEQ
+WHERE        (RecType = 'CEQ')
+ORDER BY CodObr, NumeroPartida</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CodObr" DataSetColumn="CodObr" />
+              <Mapping SourceColumn="NumeroPartida" DataSetColumn="NumeroPartida" />
+              <Mapping SourceColumn="CantidadDePartida" DataSetColumn="CantidadDePartida" />
+              <Mapping SourceColumn="Codigo" DataSetColumn="Codigo" />
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+              <Mapping SourceColumn="Unidad" DataSetColumn="Unidad" />
+              <Mapping SourceColumn="Cantidad" DataSetColumn="Cantidad" />
+              <Mapping SourceColumn="Costo" DataSetColumn="Costo" />
+              <Mapping SourceColumn="Depreciacion" DataSetColumn="Depreciacion" />
+              <Mapping SourceColumn="CanTotal" DataSetColumn="CanTotal" />
+              <Mapping SourceColumn="BsTotal" DataSetColumn="BsTotal" />
+              <Mapping SourceColumn="CanUnitario" DataSetColumn="CanUnitario" />
+              <Mapping SourceColumn="BsUnitario" DataSetColumn="BsUnitario" />
+              <Mapping SourceColumn="Porcentaje" DataSetColumn="Porcentaje" />
+              <Mapping SourceColumn="RecType" DataSetColumn="RecType" />
+              <Mapping SourceColumn="Dias" DataSetColumn="Dias" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="CompEqp" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="CompEqp" msprop:Generator_DataSetName="CompEqp">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ComputoEQ" msprop:Generator_UserTableName="ComputoEQ" msprop:Generator_RowDeletedName="ComputoEQRowDeleted" msprop:Generator_RowChangedName="ComputoEQRowChanged" msprop:Generator_RowClassName="ComputoEQRow" msprop:Generator_RowChangingName="ComputoEQRowChanging" msprop:Generator_RowEvArgName="ComputoEQRowChangeEvent" msprop:Generator_RowEvHandlerName="ComputoEQRowChangeEventHandler" msprop:Generator_TableClassName="ComputoEQDataTable" msprop:Generator_TableVarName="tableComputoEQ" msprop:Generator_RowDeletingName="ComputoEQRowDeleting" msprop:Generator_TablePropName="ComputoEQ">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CodObr" msprop:Generator_UserColumnName="CodObr" msprop:Generator_ColumnVarNameInTable="columnCodObr" msprop:Generator_ColumnPropNameInRow="CodObr" msprop:Generator_ColumnPropNameInTable="CodObrColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NumeroPartida" msprop:Generator_UserColumnName="NumeroPartida" msprop:Generator_ColumnVarNameInTable="columnNumeroPartida" msprop:Generator_ColumnPropNameInRow="NumeroPartida" msprop:Generator_ColumnPropNameInTable="NumeroPartidaColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="CantidadDePartida" msprop:Generator_UserColumnName="CantidadDePartida" msprop:Generator_ColumnVarNameInTable="columnCantidadDePartida" msprop:Generator_ColumnPropNameInRow="CantidadDePartida" msprop:Generator_ColumnPropNameInTable="CantidadDePartidaColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Codigo" msprop:Generator_UserColumnName="Codigo" msprop:Generator_ColumnVarNameInTable="columnCodigo" msprop:Generator_ColumnPropNameInRow="Codigo" msprop:Generator_ColumnPropNameInTable="CodigoColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_UserColumnName="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="54" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unidad" msprop:Generator_UserColumnName="Unidad" msprop:Generator_ColumnVarNameInTable="columnUnidad" msprop:Generator_ColumnPropNameInRow="Unidad" msprop:Generator_ColumnPropNameInTable="UnidadColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Cantidad" msprop:Generator_UserColumnName="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Costo" msprop:Generator_UserColumnName="Costo" msprop:Generator_ColumnVarNameInTable="columnCosto" msprop:Generator_ColumnPropNameInRow="Costo" msprop:Generator_ColumnPropNameInTable="CostoColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Depreciacion" msprop:Generator_UserColumnName="Depreciacion" msprop:Generator_ColumnVarNameInTable="columnDepreciacion" msprop:Generator_ColumnPropNameInRow="Depreciacion" msprop:Generator_ColumnPropNameInTable="DepreciacionColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="CanTotal" msprop:Generator_UserColumnName="CanTotal" msprop:Generator_ColumnVarNameInTable="columnCanTotal" msprop:Generator_ColumnPropNameInRow="CanTotal" msprop:Generator_ColumnPropNameInTable="CanTotalColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="BsTotal" msprop:Generator_UserColumnName="BsTotal" msprop:Generator_ColumnVarNameInTable="columnBsTotal" msprop:Generator_ColumnPropNameInRow="BsTotal" msprop:Generator_ColumnPropNameInTable="BsTotalColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="CanUnitario" msprop:Generator_UserColumnName="CanUnitario" msprop:Generator_ColumnVarNameInTable="columnCanUnitario" msprop:Generator_ColumnPropNameInRow="CanUnitario" msprop:Generator_ColumnPropNameInTable="CanUnitarioColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="BsUnitario" msprop:Generator_UserColumnName="BsUnitario" msprop:Generator_ColumnVarNameInTable="columnBsUnitario" msprop:Generator_ColumnPropNameInRow="BsUnitario" msprop:Generator_ColumnPropNameInTable="BsUnitarioColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Porcentaje" msprop:Generator_UserColumnName="Porcentaje" msprop:Generator_ColumnVarNameInTable="columnPorcentaje" msprop:Generator_ColumnPropNameInRow="Porcentaje" msprop:Generator_ColumnPropNameInTable="PorcentajeColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="RecType" msprop:Generator_UserColumnName="RecType" msprop:Generator_ColumnVarNameInTable="columnRecType" msprop:Generator_ColumnPropNameInRow="RecType" msprop:Generator_ColumnPropNameInTable="RecTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Dias" msprop:Generator_UserColumnName="Dias" msprop:Generator_ColumnVarNameInTable="columnDias" msprop:Generator_ColumnPropNameInRow="Dias" msprop:Generator_ColumnPropNameInTable="DiasColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

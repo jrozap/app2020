@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MasterAPVDataSet4" targetNamespace="http://tempuri.org/MasterAPVDataSet4.xsd" xmlns:mstns="http://tempuri.org/MasterAPVDataSet4.xsd" xmlns="http://tempuri.org/MasterAPVDataSet4.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MasterAPVConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="MasterAPVConnectionString (MySettings)" PropertyReference="ApplicationSettings.APP2020.My.MySettings.GlobalReference.Default.MasterAPVConnectionString" Provider="System.Data.OleDb">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="IndPACTableAdapter" GeneratorDataComponentClassName="IndPACTableAdapter" Name="IndPAC" UserDataComponentName="IndPACTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MasterAPVConnectionString (MySettings)" DbObjectName="IndPAC" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="False">
+                    <CommandText>SELECT GRUPO, AGRUPACION, AÑO, IDENTIFICACION, MES1, MES2, MES3, MES4, MES5, MES6, MES7, MES8, MES9, MES10, MES11, MES12 FROM IndPAC</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="GRUPO" DataSetColumn="GRUPO" />
+              <Mapping SourceColumn="AGRUPACION" DataSetColumn="AGRUPACION" />
+              <Mapping SourceColumn="AÑO" DataSetColumn="AÑO" />
+              <Mapping SourceColumn="IDENTIFICACION" DataSetColumn="IDENTIFICACION" />
+              <Mapping SourceColumn="MES1" DataSetColumn="MES1" />
+              <Mapping SourceColumn="MES2" DataSetColumn="MES2" />
+              <Mapping SourceColumn="MES3" DataSetColumn="MES3" />
+              <Mapping SourceColumn="MES4" DataSetColumn="MES4" />
+              <Mapping SourceColumn="MES5" DataSetColumn="MES5" />
+              <Mapping SourceColumn="MES6" DataSetColumn="MES6" />
+              <Mapping SourceColumn="MES7" DataSetColumn="MES7" />
+              <Mapping SourceColumn="MES8" DataSetColumn="MES8" />
+              <Mapping SourceColumn="MES9" DataSetColumn="MES9" />
+              <Mapping SourceColumn="MES10" DataSetColumn="MES10" />
+              <Mapping SourceColumn="MES11" DataSetColumn="MES11" />
+              <Mapping SourceColumn="MES12" DataSetColumn="MES12" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="MasterAPVDataSet4" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="MasterAPVDataSet4" msprop:Generator_DataSetName="MasterAPVDataSet4">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="IndPAC" msprop:Generator_UserTableName="IndPAC" msprop:Generator_RowDeletedName="IndPACRowDeleted" msprop:Generator_TableClassName="IndPACDataTable" msprop:Generator_RowChangedName="IndPACRowChanged" msprop:Generator_RowClassName="IndPACRow" msprop:Generator_RowChangingName="IndPACRowChanging" msprop:Generator_RowEvArgName="IndPACRowChangeEvent" msprop:Generator_RowEvHandlerName="IndPACRowChangeEventHandler" msprop:Generator_TablePropName="IndPAC" msprop:Generator_TableVarName="tableIndPAC" msprop:Generator_RowDeletingName="IndPACRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GRUPO" msprop:Generator_UserColumnName="GRUPO" msprop:Generator_ColumnPropNameInRow="GRUPO" msprop:Generator_ColumnVarNameInTable="columnGRUPO" msprop:Generator_ColumnPropNameInTable="GRUPOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="AGRUPACION" msprop:Generator_UserColumnName="AGRUPACION" msprop:Generator_ColumnPropNameInRow="AGRUPACION" msprop:Generator_ColumnVarNameInTable="columnAGRUPACION" msprop:Generator_ColumnPropNameInTable="AGRUPACIONColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="44" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AÑO" msprop:Generator_UserColumnName="AÑO" msprop:Generator_ColumnPropNameInRow="AÑO" msprop:Generator_ColumnVarNameInTable="columnAÑO" msprop:Generator_ColumnPropNameInTable="AÑOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="IDENTIFICACION" msprop:Generator_UserColumnName="IDENTIFICACION" msprop:Generator_ColumnPropNameInRow="IDENTIFICACION" msprop:Generator_ColumnVarNameInTable="columnIDENTIFICACION" msprop:Generator_ColumnPropNameInTable="IDENTIFICACIONColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MES1" msprop:Generator_UserColumnName="MES1" msprop:Generator_ColumnPropNameInRow="MES1" msprop:Generator_ColumnVarNameInTable="columnMES1" msprop:Generator_ColumnPropNameInTable="MES1Column" type="xs:double" minOccurs="0" />
+              <xs:element name="MES2" msprop:Generator_UserColumnName="MES2" msprop:Generator_ColumnPropNameInRow="MES2" msprop:Generator_ColumnVarNameInTable="columnMES2" msprop:Generator_ColumnPropNameInTable="MES2Column" type="xs:double" minOccurs="0" />
+              <xs:element name="MES3" msprop:Generator_UserColumnName="MES3" msprop:Generator_ColumnPropNameInRow="MES3" msprop:Generator_ColumnVarNameInTable="columnMES3" msprop:Generator_ColumnPropNameInTable="MES3Column" type="xs:double" minOccurs="0" />
+              <xs:element name="MES4" msprop:Generator_UserColumnName="MES4" msprop:Generator_ColumnPropNameInRow="MES4" msprop:Generator_ColumnVarNameInTable="columnMES4" msprop:Generator_ColumnPropNameInTable="MES4Column" type="xs:double" minOccurs="0" />
+              <xs:element name="MES5" msprop:Generator_UserColumnName="MES5" msprop:Generator_ColumnPropNameInRow="MES5" msprop:Generator_ColumnVarNameInTable="columnMES5" msprop:Generator_ColumnPropNameInTable="MES5Column" type="xs:double" minOccurs="0" />
+              <xs:element name="MES6" msprop:Generator_UserColumnName="MES6" msprop:Generator_ColumnPropNameInRow="MES6" msprop:Generator_ColumnVarNameInTable="columnMES6" msprop:Generator_ColumnPropNameInTable="MES6Column" type="xs:double" minOccurs="0" />
+              <xs:element name="MES7" msprop:Generator_UserColumnName="MES7" msprop:Generator_ColumnPropNameInRow="MES7" msprop:Generator_ColumnVarNameInTable="columnMES7" msprop:Generator_ColumnPropNameInTable="MES7Column" type="xs:double" minOccurs="0" />
+              <xs:element name="MES8" msprop:Generator_UserColumnName="MES8" msprop:Generator_ColumnPropNameInRow="MES8" msprop:Generator_ColumnVarNameInTable="columnMES8" msprop:Generator_ColumnPropNameInTable="MES8Column" type="xs:double" minOccurs="0" />
+              <xs:element name="MES9" msprop:Generator_UserColumnName="MES9" msprop:Generator_ColumnPropNameInRow="MES9" msprop:Generator_ColumnVarNameInTable="columnMES9" msprop:Generator_ColumnPropNameInTable="MES9Column" type="xs:double" minOccurs="0" />
+              <xs:element name="MES10" msprop:Generator_UserColumnName="MES10" msprop:Generator_ColumnPropNameInRow="MES10" msprop:Generator_ColumnVarNameInTable="columnMES10" msprop:Generator_ColumnPropNameInTable="MES10Column" type="xs:double" minOccurs="0" />
+              <xs:element name="MES11" msprop:Generator_UserColumnName="MES11" msprop:Generator_ColumnPropNameInRow="MES11" msprop:Generator_ColumnVarNameInTable="columnMES11" msprop:Generator_ColumnPropNameInTable="MES11Column" type="xs:double" minOccurs="0" />
+              <xs:element name="MES12" msprop:Generator_UserColumnName="MES12" msprop:Generator_ColumnPropNameInRow="MES12" msprop:Generator_ColumnVarNameInTable="columnMES12" msprop:Generator_ColumnPropNameInTable="MES12Column" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="AnPartidas" targetNamespace="http://tempuri.org/DataSet11.xsd" xmlns:mstns="http://tempuri.org/DataSet11.xsd" xmlns="http://tempuri.org/DataSet11.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MasterAPVConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="MasterAPVConnectionString (MySettings)" PropertyReference="ApplicationSettings.APP2020.My.MySettings.GlobalReference.Default.MasterAPVConnectionString" Provider="System.Data.OleDb">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AnPartidasTableAdapter" GeneratorDataComponentClassName="AnPartidasTableAdapter" Name="AnPartidas" UserDataComponentName="AnPartidasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MasterAPVConnectionString (MySettings)" DbObjectName="AnPartidas" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT        [cod-obr-apu], [num-par-apu], [cod-par-m], MiniDescripcion, CodigoCovenin, PartidaTexto, [can-ana-apu], [ren-par-apu], [can-apr-apu], [und-par-apu], [iva-apu], [prc-adm-apu], [prc-utl-apu], [fcas-apu], [fin-obr-apu], [pun-par-apu], 
+                         [pun-ana-apu], [pun-adp-apu], [hor-hmb-apu], Dias, NumeroControl, [ptot-pr-apu], [tot-gen-apu], [tit-is-apu], [rec-typ-apu], Descripcion1, Descripcion2, Descripcion3
+FROM            AnPartidas
+ORDER BY [num-par-apu]</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod-obr-apu" DataSetColumn="cod-obr-apu" />
+              <Mapping SourceColumn="num-par-apu" DataSetColumn="num-par-apu" />
+              <Mapping SourceColumn="cod-par-m" DataSetColumn="cod-par-m" />
+              <Mapping SourceColumn="Descripcion1" DataSetColumn="Descripcion1" />
+              <Mapping SourceColumn="Descripcion2" DataSetColumn="Descripcion2" />
+              <Mapping SourceColumn="Descripcion3" DataSetColumn="Descripcion3" />
+              <Mapping SourceColumn="MiniDescripcion" DataSetColumn="MiniDescripcion" />
+              <Mapping SourceColumn="CodigoCovenin" DataSetColumn="CodigoCovenin" />
+              <Mapping SourceColumn="PartidaTexto" DataSetColumn="PartidaTexto" />
+              <Mapping SourceColumn="can-ana-apu" DataSetColumn="can-ana-apu" />
+              <Mapping SourceColumn="ren-par-apu" DataSetColumn="ren-par-apu" />
+              <Mapping SourceColumn="can-apr-apu" DataSetColumn="can-apr-apu" />
+              <Mapping SourceColumn="und-par-apu" DataSetColumn="und-par-apu" />
+              <Mapping SourceColumn="iva-apu" DataSetColumn="iva-apu" />
+              <Mapping SourceColumn="prc-adm-apu" DataSetColumn="prc-adm-apu" />
+              <Mapping SourceColumn="prc-utl-apu" DataSetColumn="prc-utl-apu" />
+              <Mapping SourceColumn="fcas-apu" DataSetColumn="fcas-apu" />
+              <Mapping SourceColumn="fin-obr-apu" DataSetColumn="fin-obr-apu" />
+              <Mapping SourceColumn="pun-par-apu" DataSetColumn="pun-par-apu" />
+              <Mapping SourceColumn="pun-ana-apu" DataSetColumn="pun-ana-apu" />
+              <Mapping SourceColumn="pun-adp-apu" DataSetColumn="pun-adp-apu" />
+              <Mapping SourceColumn="hor-hmb-apu" DataSetColumn="hor-hmb-apu" />
+              <Mapping SourceColumn="Dias" DataSetColumn="Dias" />
+              <Mapping SourceColumn="NumeroControl" DataSetColumn="NumeroControl" />
+              <Mapping SourceColumn="ptot-pr-apu" DataSetColumn="ptot-pr-apu" />
+              <Mapping SourceColumn="tot-gen-apu" DataSetColumn="tot-gen-apu" />
+              <Mapping SourceColumn="tit-is-apu" DataSetColumn="tit-is-apu" />
+              <Mapping SourceColumn="rec-typ-apu" DataSetColumn="rec-typ-apu" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="AnPartidas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False" msprop:Generator_UserDSName="AnPartidas" msprop:Generator_DataSetName="AnPartidas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AnPartidas" msprop:Generator_UserTableName="AnPartidas" msprop:Generator_RowDeletedName="AnPartidasRowDeleted" msprop:Generator_RowChangedName="AnPartidasRowChanged" msprop:Generator_RowClassName="AnPartidasRow" msprop:Generator_RowChangingName="AnPartidasRowChanging" msprop:Generator_RowEvArgName="AnPartidasRowChangeEvent" msprop:Generator_RowEvHandlerName="AnPartidasRowChangeEventHandler" msprop:Generator_TableClassName="AnPartidasDataTable" msprop:Generator_TableVarName="tableAnPartidas" msprop:Generator_RowDeletingName="AnPartidasRowDeleting" msprop:Generator_TablePropName="_AnPartidas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod-obr-apu" msprop:Generator_UserColumnName="cod-obr-apu" msprop:Generator_ColumnVarNameInTable="_columncod_obr_apu" msprop:Generator_ColumnPropNameInRow="_cod_obr_apu" msprop:Generator_ColumnPropNameInTable="_cod_obr_apuColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="num-par-apu" msprop:Generator_UserColumnName="num-par-apu" msprop:Generator_ColumnVarNameInTable="_columnnum_par_apu" msprop:Generator_ColumnPropNameInRow="_num_par_apu" msprop:Generator_ColumnPropNameInTable="_num_par_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="cod-par-m" msprop:Generator_UserColumnName="cod-par-m" msprop:Generator_ColumnVarNameInTable="_columncod_par_m" msprop:Generator_ColumnPropNameInRow="_cod_par_m" msprop:Generator_ColumnPropNameInTable="_cod_par_mColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descripcion1" msprop:Generator_UserColumnName="Descripcion1" msprop:Generator_ColumnVarNameInTable="columnDescripcion1" msprop:Generator_ColumnPropNameInRow="Descripcion1" msprop:Generator_ColumnPropNameInTable="Descripcion1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descripcion2" msprop:Generator_UserColumnName="Descripcion2" msprop:Generator_ColumnVarNameInTable="columnDescripcion2" msprop:Generator_ColumnPropNameInRow="Descripcion2" msprop:Generator_ColumnPropNameInTable="Descripcion2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Descripcion3" msprop:Generator_UserColumnName="Descripcion3" msprop:Generator_ColumnVarNameInTable="columnDescripcion3" msprop:Generator_ColumnPropNameInRow="Descripcion3" msprop:Generator_ColumnPropNameInTable="Descripcion3Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="70" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MiniDescripcion" msprop:Generator_UserColumnName="MiniDescripcion" msprop:Generator_ColumnVarNameInTable="columnMiniDescripcion" msprop:Generator_ColumnPropNameInRow="MiniDescripcion" msprop:Generator_ColumnPropNameInTable="MiniDescripcionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CodigoCovenin" msprop:Generator_UserColumnName="CodigoCovenin" msprop:Generator_ColumnVarNameInTable="columnCodigoCovenin" msprop:Generator_ColumnPropNameInRow="CodigoCovenin" msprop:Generator_ColumnPropNameInTable="CodigoCoveninColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PartidaTexto" msprop:Generator_UserColumnName="PartidaTexto" msprop:Generator_ColumnVarNameInTable="columnPartidaTexto" msprop:Generator_ColumnPropNameInRow="PartidaTexto" msprop:Generator_ColumnPropNameInTable="PartidaTextoColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="can-ana-apu" msprop:Generator_UserColumnName="can-ana-apu" msprop:Generator_ColumnVarNameInTable="_columncan_ana_apu" msprop:Generator_ColumnPropNameInRow="_can_ana_apu" msprop:Generator_ColumnPropNameInTable="_can_ana_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="ren-par-apu" msprop:Generator_UserColumnName="ren-par-apu" msprop:Generator_ColumnVarNameInTable="_columnren_par_apu" msprop:Generator_ColumnPropNameInRow="_ren_par_apu" msprop:Generator_ColumnPropNameInTable="_ren_par_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="can-apr-apu" msprop:Generator_UserColumnName="can-apr-apu" msprop:Generator_ColumnVarNameInTable="_columncan_apr_apu" msprop:Generator_ColumnPropNameInRow="_can_apr_apu" msprop:Generator_ColumnPropNameInTable="_can_apr_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="und-par-apu" msprop:Generator_UserColumnName="und-par-apu" msprop:Generator_ColumnVarNameInTable="_columnund_par_apu" msprop:Generator_ColumnPropNameInRow="_und_par_apu" msprop:Generator_ColumnPropNameInTable="_und_par_apuColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="iva-apu" msprop:Generator_UserColumnName="iva-apu" msprop:Generator_ColumnVarNameInTable="_columniva_apu" msprop:Generator_ColumnPropNameInRow="_iva_apu" msprop:Generator_ColumnPropNameInTable="_iva_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="prc-adm-apu" msprop:Generator_UserColumnName="prc-adm-apu" msprop:Generator_ColumnVarNameInTable="_columnprc_adm_apu" msprop:Generator_ColumnPropNameInRow="_prc_adm_apu" msprop:Generator_ColumnPropNameInTable="_prc_adm_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="prc-utl-apu" msprop:Generator_UserColumnName="prc-utl-apu" msprop:Generator_ColumnVarNameInTable="_columnprc_utl_apu" msprop:Generator_ColumnPropNameInRow="_prc_utl_apu" msprop:Generator_ColumnPropNameInTable="_prc_utl_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="fcas-apu" msprop:Generator_UserColumnName="fcas-apu" msprop:Generator_ColumnVarNameInTable="_columnfcas_apu" msprop:Generator_ColumnPropNameInRow="_fcas_apu" msprop:Generator_ColumnPropNameInTable="_fcas_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="fin-obr-apu" msprop:Generator_UserColumnName="fin-obr-apu" msprop:Generator_ColumnVarNameInTable="_columnfin_obr_apu" msprop:Generator_ColumnPropNameInRow="_fin_obr_apu" msprop:Generator_ColumnPropNameInTable="_fin_obr_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="pun-par-apu" msprop:Generator_UserColumnName="pun-par-apu" msprop:Generator_ColumnVarNameInTable="_columnpun_par_apu" msprop:Generator_ColumnPropNameInRow="_pun_par_apu" msprop:Generator_ColumnPropNameInTable="_pun_par_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="pun-ana-apu" msprop:Generator_UserColumnName="pun-ana-apu" msprop:Generator_ColumnVarNameInTable="_columnpun_ana_apu" msprop:Generator_ColumnPropNameInRow="_pun_ana_apu" msprop:Generator_ColumnPropNameInTable="_pun_ana_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="pun-adp-apu" msprop:Generator_UserColumnName="pun-adp-apu" msprop:Generator_ColumnVarNameInTable="_columnpun_adp_apu" msprop:Generator_ColumnPropNameInRow="_pun_adp_apu" msprop:Generator_ColumnPropNameInTable="_pun_adp_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="hor-hmb-apu" msprop:Generator_UserColumnName="hor-hmb-apu" msprop:Generator_ColumnVarNameInTable="_columnhor_hmb_apu" msprop:Generator_ColumnPropNameInRow="_hor_hmb_apu" msprop:Generator_ColumnPropNameInTable="_hor_hmb_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Dias" msprop:Generator_UserColumnName="Dias" msprop:Generator_ColumnVarNameInTable="columnDias" msprop:Generator_ColumnPropNameInRow="Dias" msprop:Generator_ColumnPropNameInTable="DiasColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="NumeroControl" msprop:Generator_UserColumnName="NumeroControl" msprop:Generator_ColumnVarNameInTable="columnNumeroControl" msprop:Generator_ColumnPropNameInRow="NumeroControl" msprop:Generator_ColumnPropNameInTable="NumeroControlColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="ptot-pr-apu" msprop:Generator_UserColumnName="ptot-pr-apu" msprop:Generator_ColumnVarNameInTable="_columnptot_pr_apu" msprop:Generator_ColumnPropNameInRow="_ptot_pr_apu" msprop:Generator_ColumnPropNameInTable="_ptot_pr_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="tot-gen-apu" msprop:Generator_UserColumnName="tot-gen-apu" msprop:Generator_ColumnVarNameInTable="_columntot_gen_apu" msprop:Generator_ColumnPropNameInRow="_tot_gen_apu" msprop:Generator_ColumnPropNameInTable="_tot_gen_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="tit-is-apu" msprop:Generator_UserColumnName="tit-is-apu" msprop:Generator_ColumnVarNameInTable="_columntit_is_apu" msprop:Generator_ColumnPropNameInRow="_tit_is_apu" msprop:Generator_ColumnPropNameInTable="_tit_is_apuColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="rec-typ-apu" msprop:Generator_UserColumnName="rec-typ-apu" msprop:Generator_ColumnVarNameInTable="_columnrec_typ_apu" msprop:Generator_ColumnPropNameInRow="_rec_typ_apu" msprop:Generator_ColumnPropNameInTable="_rec_typ_apuColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

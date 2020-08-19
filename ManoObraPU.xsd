@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ManoObraPU" targetNamespace="http://tempuri.org/DataSet11.xsd" xmlns:mstns="http://tempuri.org/DataSet11.xsd" xmlns="http://tempuri.org/DataSet11.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="MasterAPVConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="MasterAPVConnectionString (MySettings)" PropertyReference="ApplicationSettings.APP2020.My.MySettings.GlobalReference.Default.MasterAPVConnectionString" Provider="System.Data.OleDb">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MdOPUTableAdapter" GeneratorDataComponentClassName="MdOPUTableAdapter" Name="MdOPU" UserDataComponentName="MdOPUTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="MasterAPVConnectionString (MySettings)" DbObjectName="MdOPU" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT        [cod-obr-apu], [rec-typ-apu], [num-par-apu], [cod-par-m], [cod-mob-apu], Descripcion, Unidad, [cnt-mob-apu], [jrn-mob-apu], [bno-mob-apu], [tot-jrn-apu], [tot-bno-apu], Tipo
+FROM            MdOPU
+ORDER BY [num-par-apu], [cod-mob-apu]</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="cod-obr-apu" DataSetColumn="cod-obr-apu" />
+              <Mapping SourceColumn="rec-typ-apu" DataSetColumn="rec-typ-apu" />
+              <Mapping SourceColumn="num-par-apu" DataSetColumn="num-par-apu" />
+              <Mapping SourceColumn="cod-par-m" DataSetColumn="cod-par-m" />
+              <Mapping SourceColumn="cod-mob-apu" DataSetColumn="cod-mob-apu" />
+              <Mapping SourceColumn="Descripcion" DataSetColumn="Descripcion" />
+              <Mapping SourceColumn="Unidad" DataSetColumn="Unidad" />
+              <Mapping SourceColumn="cnt-mob-apu" DataSetColumn="cnt-mob-apu" />
+              <Mapping SourceColumn="jrn-mob-apu" DataSetColumn="jrn-mob-apu" />
+              <Mapping SourceColumn="bno-mob-apu" DataSetColumn="bno-mob-apu" />
+              <Mapping SourceColumn="tot-jrn-apu" DataSetColumn="tot-jrn-apu" />
+              <Mapping SourceColumn="tot-bno-apu" DataSetColumn="tot-bno-apu" />
+              <Mapping SourceColumn="Tipo" DataSetColumn="Tipo" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ManoObraPU" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ManoObraPU" msprop:Generator_DataSetName="ManoObraPU">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MdOPU" msprop:Generator_UserTableName="MdOPU" msprop:Generator_RowDeletedName="MdOPURowDeleted" msprop:Generator_RowChangedName="MdOPURowChanged" msprop:Generator_RowClassName="MdOPURow" msprop:Generator_RowChangingName="MdOPURowChanging" msprop:Generator_RowEvArgName="MdOPURowChangeEvent" msprop:Generator_RowEvHandlerName="MdOPURowChangeEventHandler" msprop:Generator_TableClassName="MdOPUDataTable" msprop:Generator_TableVarName="tableMdOPU" msprop:Generator_RowDeletingName="MdOPURowDeleting" msprop:Generator_TablePropName="MdOPU">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cod-obr-apu" msprop:Generator_UserColumnName="cod-obr-apu" msprop:Generator_ColumnPropNameInRow="_cod_obr_apu" msprop:Generator_ColumnVarNameInTable="_columncod_obr_apu" msprop:Generator_ColumnPropNameInTable="_cod_obr_apuColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="16" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="rec-typ-apu" msprop:Generator_UserColumnName="rec-typ-apu" msprop:Generator_ColumnPropNameInRow="_rec_typ_apu" msprop:Generator_ColumnVarNameInTable="_columnrec_typ_apu" msprop:Generator_ColumnPropNameInTable="_rec_typ_apuColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="num-par-apu" msprop:Generator_UserColumnName="num-par-apu" msprop:Generator_ColumnPropNameInRow="_num_par_apu" msprop:Generator_ColumnVarNameInTable="_columnnum_par_apu" msprop:Generator_ColumnPropNameInTable="_num_par_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="cod-par-m" msprop:Generator_UserColumnName="cod-par-m" msprop:Generator_ColumnPropNameInRow="_cod_par_m" msprop:Generator_ColumnVarNameInTable="_columncod_par_m" msprop:Generator_ColumnPropNameInTable="_cod_par_mColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="14" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cod-mob-apu" msprop:Generator_UserColumnName="cod-mob-apu" msprop:Generator_ColumnPropNameInRow="_cod_mob_apu" msprop:Generator_ColumnVarNameInTable="_columncod_mob_apu" msprop:Generator_ColumnPropNameInTable="_cod_mob_apuColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_UserColumnName="Descripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="55" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unidad" msprop:Generator_UserColumnName="Unidad" msprop:Generator_ColumnPropNameInRow="Unidad" msprop:Generator_ColumnVarNameInTable="columnUnidad" msprop:Generator_ColumnPropNameInTable="UnidadColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cnt-mob-apu" msprop:Generator_UserColumnName="cnt-mob-apu" msprop:Generator_ColumnPropNameInRow="_cnt_mob_apu" msprop:Generator_ColumnVarNameInTable="_columncnt_mob_apu" msprop:Generator_ColumnPropNameInTable="_cnt_mob_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="jrn-mob-apu" msprop:Generator_UserColumnName="jrn-mob-apu" msprop:Generator_ColumnPropNameInRow="_jrn_mob_apu" msprop:Generator_ColumnVarNameInTable="_columnjrn_mob_apu" msprop:Generator_ColumnPropNameInTable="_jrn_mob_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="bno-mob-apu" msprop:Generator_UserColumnName="bno-mob-apu" msprop:Generator_ColumnPropNameInRow="_bno_mob_apu" msprop:Generator_ColumnVarNameInTable="_columnbno_mob_apu" msprop:Generator_ColumnPropNameInTable="_bno_mob_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="tot-jrn-apu" msprop:Generator_UserColumnName="tot-jrn-apu" msprop:Generator_ColumnPropNameInRow="_tot_jrn_apu" msprop:Generator_ColumnVarNameInTable="_columntot_jrn_apu" msprop:Generator_ColumnPropNameInTable="_tot_jrn_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="tot-bno-apu" msprop:Generator_UserColumnName="tot-bno-apu" msprop:Generator_ColumnPropNameInRow="_tot_bno_apu" msprop:Generator_ColumnVarNameInTable="_columntot_bno_apu" msprop:Generator_ColumnPropNameInTable="_tot_bno_apuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Tipo" msprop:Generator_UserColumnName="Tipo" msprop:Generator_ColumnPropNameInRow="Tipo" msprop:Generator_ColumnVarNameInTable="columnTipo" msprop:Generator_ColumnPropNameInTable="TipoColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
