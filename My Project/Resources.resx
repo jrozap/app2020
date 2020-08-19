@@ -1,0 +1,1156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FldGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FldGreen.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB03.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APOCovenin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APOCovenin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ScrList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ScrList.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Refresh02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Refresh02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SQL02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SQL02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObrUpd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ObrUpd.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UserConn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserConn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actMEqp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actMEqp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackRest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackRest.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImportarAPO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImportarAPO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APVLULO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APV-LULO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CIVLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CIVLogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addMed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="datos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\datos1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SfwUpdate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SfwUpdate.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pert1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pert1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NvaPartAPO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NvaPartAPO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Presup01001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Presup01001.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MedicionAPO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MedicionAPO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desdeAPV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desdeAPV.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APP2020 LogoI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APP2020 LogoI.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Analisis01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Analisis01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="USBFlash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\USBFlash.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Excel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Excel1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPLogoOrg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPLogoOrg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APOValN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APOValN.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoneyBillR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MoneyBillR.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrwDwn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArrwDwn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NvaPart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NvaPart.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CalList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CalList.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fldDel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fldDel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObrGears" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ObrGears.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APOValR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APOValR.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActValAPV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ActValAPV.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="List03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\List03.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Presup01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Presup01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPLogoGld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPLogoGld.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObrMat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ObrMat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResPreAPO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResPreAPO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OkIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OkIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPLogoLBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPLogoLBlue.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatosObr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DatosObr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB14.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\copy.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ListDel01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ListDel01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Presup02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Presup02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue_external_drive_afolder_12386" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_external_drive_afolder_12386.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPExportSh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPExportSh.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObrMO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ObrMO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObraRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ObraRed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpandArrw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExpandArrw.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Ylw1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Ylw1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExportHExc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExportHExc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020LogoScr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Logo-Scr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Ylw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Ylw.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObrMedicion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ObrMedicion.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editAPU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editAPU.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ListDel02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ListDel02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APVIcogray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APV Ico gray.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Home4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Home4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="USFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\USFlag.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DBList02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DBList02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APOVal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APOVal1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Restore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Restore.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contr01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contr01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogoBCV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogoBCV.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CAPVLulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CAPVLulo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TraEqAPO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TraEqAPO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpandTra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExpandTra.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CdroCrre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CdroCrre.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPMedAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPMedAdd.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActLP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ActLP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gear01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gear01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AcrobatRDR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AcrobatRDR.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObraAPO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ObraAPO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB07.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Info.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpExcel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExpExcel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPCostUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPCostUp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB12.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPDSheet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPDSheet.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TrMatCmp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TrMatCmp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MatCmp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MatCmp02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gear02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gear02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CIV Logo B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CIV Logo B.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Open" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Open.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSProyect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MSProyect.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Analisis02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Analisis02.bmp;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actMDO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actMDO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SimpleGear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SimpleGear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FldBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FldBlue.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImpPart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImpPart.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActMOCmp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ActMOCmp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NHojaAna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NHojaAna.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResetTra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResetTra.png.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Conversion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Conversion.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlankList02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlankList02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrtSetup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrtSetup.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpPDF" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExpPDF.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResetMdO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResetMdO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB04.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpandMdO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExpandMdO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Analisis10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Analisis10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPValUpd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPValUpd.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpPart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExpPart.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020LogoScr1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Logo-Scr1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExtDrv01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExtDrv01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EEstHana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EEstHana.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenCalc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OpenCalc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows7.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpandEqp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExpandEqp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObrTool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ObrTool.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPDataOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPDataOut.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObrTools" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ObrTools.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Close.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pert.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Presup011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Presup011.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Measures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Measures.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EqpHvy02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EqpHvy02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EqpHvy01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EqpHvy01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ListDel03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ListDel03.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Silver.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COVENINGray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COVENINGray.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LULOIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LULO Icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="closeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\closeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrtSetup1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrtSetup1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActIns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ActIns.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB09.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SQL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SQL.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="www" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\www.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APVLogoApp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APV Logo App1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mat07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mat07.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gmail02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gmail02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DatosObrAPP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DatosObrAPP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrwLf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArrwLf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LULOAPV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LULO-APV.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DelList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DelList.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB10.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BaseAPV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BaseAPV.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delMed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HvyEqp05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HvyEqp05.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RgUoArrw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RgUoArrw.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResetEqp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResetEqp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020YLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020YLogo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chrome05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chrome05.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActEC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ActEC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DirAPP2020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DirAPV2020.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Backup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Backup.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Grn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Grn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObrWrk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ObrWrk.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DrvBkp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DrvBkp01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="newAPU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newAPU.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPexpExcel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPexpExcel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPCostos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPCostos.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPConf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPConf.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SysIO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SysIO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IEstHana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IEstHana.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPConfGear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPConfGear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPImportS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPImportS.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="USBDrv01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\USBDrv01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APVIcoBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APV Ico Black.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TraerEC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TraerEC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpandArrw1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExpandArrw1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResetEQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResetEQ.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MinArrw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MinArrw.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APVIcoBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APV Ico Blue.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenProy02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OpenProy021.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DObrUpd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DObrUpd.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BkpObra01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BkpObra01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APP2020Fld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APP2020Fld.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddDoc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddDoc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Painting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Painting.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CaratVal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CaratVal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Material" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Material.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConnSrv" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ConnSrv.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObrAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ObrAdd.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LleEqAPO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LleEqAPO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResetMT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResetMT.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Grn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Grn1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Publisher2010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Publisher2010.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ValAPP2020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ValAPP2020.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObrDel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ObrDel.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenWrite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OpenWrite.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Red1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Red1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HlpBook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HlpBook.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpandMT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExpandMT.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Analisis11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Analisis11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="twitter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twitter.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HDDVD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HDDVD.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bkp21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bkp21.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Insert" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Insert.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tools" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tools.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Org1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Org1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OpenMat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OpenMat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Suppliers01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Suppliers01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LayOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LayOut.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Delete02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AnaPreU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AnaPreU.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ListPrt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ListPrt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsComp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsComp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrwUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArrwUp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="actLPTotal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actLPTotal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FldPurple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FldPurple.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MatCmp01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MatCmp01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LlevarIns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LlevarIns.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helpAPV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helpAPV.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ConfVista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ConfVista.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB06.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Blue.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExcelT2003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExcelT2003.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MatComp04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MatComp04.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResetTR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResetTR.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mat03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mat03.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GDrive1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GDrive1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlankFld01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlankFld01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB05.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MeasureT01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MeasureT01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Delete03.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Analisis03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Analisis03.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImportDExc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImportDExc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Logo1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CloseApp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CloseApp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpainFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpainFlag.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EpsonPrt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EpsonPrt.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VzlaFlag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VzlaFlag.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APVIcogreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APV Ico green.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APVBckpG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APVBckpG.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpandMat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExpandMat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Search.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LfDwArrw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LfDwArrw.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APOBseCal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APOBseCal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlankForm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlankForm.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mat04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mat04.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APVIcoOrange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APV Ico Orange.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActMat01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ActMat01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpandEQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExpandEQ.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResPreAPO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResPreAPO1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CobroAum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CobroAum.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CLuloAPV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CLuloAPV.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RestAPP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RestAPP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPRetMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPRetMed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bkp211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bkp211.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TraerIns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TraerIns.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TraerMOCmp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TraerMOCmp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrGo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArrGo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlankList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlankList.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Transfer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transfer.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPLogoDBlue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPLogoDBlue.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CloseRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CloseRed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mat05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mat05.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPImport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPImport.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddFld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddFld.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HPLaser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HPLaser.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB11.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Org" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Org.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MixEqp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MixEqp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HvyEqp06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HvyEqp06.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LlMatComp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LlMatComp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResetMO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResetMO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActEqAPO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ActEqAPO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Silver1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Silver1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPCobr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPCobr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UserDisc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserDisc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ResetMat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ResetMat.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrespAPP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrespAPP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DBAPV2020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DBAPV2020.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FldRed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FldRed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="USDollar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\USDollar.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PriceChk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PriceChk.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPCostB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPCostB.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APP2020Store" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APP2020Store.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpandMO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExpandMO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPExport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPExport.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB13.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DBAPO2020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DBAPO2020.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPLogoBlk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPLogoBlk.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExpandTR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExpandTR.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Whatsapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Whatsapp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DB08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DB08.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPDataIn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPDataIn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APOVal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APOVal.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Restore01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Restore01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="desdeLULO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\desdeLULO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DObrNew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DObrNew.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Calendar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calendar1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UserData" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UserData.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BldObr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BldObr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPCost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPCost.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="List04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\List04.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MatCmp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MatCmp03.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editMed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editMed.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FullRB3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Full RB3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LlevarEC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LlevarEC.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BackupAPP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BackupAPP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RestoreDB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RestoreDB.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LLevarMOCmp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LLevarMOCmp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Delete01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObrList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ObrList.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MixerEqp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MixerEqp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Material1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Material1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrwRg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArrwRg.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Apv2020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App2020.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Logo.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPLogoGray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPLogoGray.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MeasureR01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MeasureR01.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Covenin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Covenin.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COVENIN9000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COVENIN9000.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EmptyRB3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Empty RB3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MatObr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MatObr.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PeriodosAPO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PeriodosAPO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExcEqp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExcEqp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BsSoberano" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BsSoberano.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Hlp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Hlp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CalcApp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CalcApp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dbbkp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dbbkp1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MOComp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MOComp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CfgAPO2020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CfgAPO2020.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrgAcc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrgAcc.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ExportarAPO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ExportarAPO.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fldAdd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fldAdd.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArrCome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArrCome.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CDDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CDDown.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Blue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Blue1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banned" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banned.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="List02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\List02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EqpIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EqpIcon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APO2020Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APO2020Red.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlankFld02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BlankFld02.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APP2020NvaP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APP2020NvaP.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ManObr128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ManObr128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrinterSetupInk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrinterSetupInk.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="APPLogoGrn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\APPLogoGrn.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ActMatCmp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ActMatCmp.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddSym" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AddSym.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addMany" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addMany.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addOne.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delMany" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delMany.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="delOne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delOne.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

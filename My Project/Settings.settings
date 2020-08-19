@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="MasterAPVConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\MasterAPV.MDB;Persist Security Info=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\MasterAPV.MDB;Persist Security Info=False</Value>
+    </Setting>
+    <Setting Name="Excel" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Dsn=Valuacion;dbq=C:\USERS\JROZAP\DOCUMENTS\STEEL DESIGN CO\ANALISIS PRECIOS UNITARIOS\DB APVWIN Ver 10.1.001\Excel\Valuacion.xlsx;defaultdir=C:\USERS\JROZAP\DOCUMENTS\STEEL DESIGN CO\ANALISIS PRECIOS UNITARIOS\DB APVWIN Ver 10.1.001\Excel;driverid=1046;fil=excel 12.0;maxbuffersize=2048;pagetimeout=5&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.Odbc&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Dsn=Valuacion;dbq=C:\USERS\JROZAP\DOCUMENTS\STEEL DESIGN CO\ANALISIS PRECIOS UNITARIOS\DB APVWIN Ver 10.1.001\Excel\Valuacion.xlsx;defaultdir=C:\USERS\JROZAP\DOCUMENTS\STEEL DESIGN CO\ANALISIS PRECIOS UNITARIOS\DB APVWIN Ver 10.1.001\Excel;driverid=1046;fil=excel 12.0;maxbuffersize=2048;pagetimeout=5</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Driver={Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)};dbq=C:\USERS\JROZAP\DOCUMENTS\STEEL DESIGN CO\ANALISIS PRECIOS UNITARIOS\DB APVWIN Ver 10.1.001\Excel\Valuacion.xlsx;defaultdir=C:\USERS\JROZAP\DOCUMENTS\STEEL DESIGN CO\ANALISIS PRECIOS UNITARIOS\DB APVWIN Ver 10.1.001\Excel;driverid=1046;fil=excel 12.0;filedsn=C:\Users\jrozap\Documents\Valuacion.dsn;maxbuffersize=2048;maxscanrows=8;pagetimeout=5;readonly=1;safetransactions=0;threads=3;uid=admin;usercommitsync=Yes&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.Odbc&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Driver={Microsoft Excel Driver (*.xls, *.xlsx, *.xlsm, *.xlsb)};dbq=C:\USERS\JROZAP\DOCUMENTS\STEEL DESIGN CO\ANALISIS PRECIOS UNITARIOS\DB APVWIN Ver 10.1.001\Excel\Valuacion.xlsx;defaultdir=C:\USERS\JROZAP\DOCUMENTS\STEEL DESIGN CO\ANALISIS PRECIOS UNITARIOS\DB APVWIN Ver 10.1.001\Excel;driverid=1046;fil=excel 12.0;filedsn=C:\Users\jrozap\Documents\Valuacion.dsn;maxbuffersize=2048;maxscanrows=8;pagetimeout=5;readonly=1;safetransactions=0;threads=3;uid=admin;usercommitsync=Yes</Value>
+    </Setting>
+    <Setting Name="MasterAPPConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\MasterAPP.mdb;Persist Security Info=False&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\MasterAPP.mdb;Persist Security Info=False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
