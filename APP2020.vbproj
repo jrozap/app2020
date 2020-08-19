@@ -1,0 +1,1169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5C259ACC-42F1-459C-9B20-CAF0F5FD8768}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>APP2020.My.MyApplication</StartupObject>
+    <RootNamespace>APP2020</RootNamespace>
+    <AssemblyName>APP2020</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <ApplicationIcon>APP2020 LogoI.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>APP2020.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>APP2020.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ADODB, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.AnalysisServices.AdomdClient, Version=9.0.242.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.StdFormat, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data" />
+    <Reference Include="MSDATASRC, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="SpreadsheetLight, Version=3.4.0.0, Culture=neutral, PublicKeyToken=32fbb46dc1730c57, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\..\Windows\SysWOW64\SpreadsheetLight.dll</HintPath>
+    </Reference>
+    <Reference Include="stdole, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.Office" />
+    <Import Include="Microsoft.Office.Core" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnPartidas.vb">
+      <DependentUpon>AnPartidas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="APV2020Mp.Designer.vb">
+      <DependentUpon>APV2020Mp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="APV2020Mp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcercaDe.Designer.vb">
+      <DependentUpon>AcercaDe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AcercaDe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AbrirAPV..Designer.vb">
+      <DependentUpon>AbrirAPV..vb</DependentUpon>
+    </Compile>
+    <Compile Include="AbrirAPV..vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActBAPV2020.Designer.vb">
+      <DependentUpon>ActBAPV2020.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActBAPV2020.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actMEqp.Designer.vb">
+      <DependentUpon>actMEqp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="actMEqp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComputosEq.vb">
+      <DependentUpon>ComputosEq.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ComputosMO.vb">
+      <DependentUpon>ComputosMO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnPartidas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnPartidas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MasterMdO.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterMdO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MasterEqp.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterEqp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MasterTrans.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterTrans.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MasterMat.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterMat.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPart.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterPart.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPart.vb">
+      <DependentUpon>MasterPart.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialPU.vb">
+      <DependentUpon>MaterialPU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PreGObr.Designer.vb">
+      <DependentUpon>PreGObr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreGObr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NvaPart.Designer.vb">
+      <DependentUpon>NvaPart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NvaPart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PCovenin.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PCovenin.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DatosObr.Designer.vb">
+      <DependentUpon>DatosObr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DatosObr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PartCovenin.Designer.vb">
+      <DependentUpon>PartCovenin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PartCovenin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObrasAPO.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ObrasAPO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarObr.Designer.vb">
+      <DependentUpon>MostrarObr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarObr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObrasAPO.vb">
+      <DependentUpon>ObrasAPO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="TranspPU.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TranspPU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ManoObraPU.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ManoObraPU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EquiposPU.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EquiposPU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EquiposPU.vb">
+      <DependentUpon>EquiposPU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialPU.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MaterialPU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet4.vb">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ComputosMat.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComputosMat.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ComputosEq.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComputosEq.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ComputosMO.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComputosMO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ComputosTR.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ComputosTR.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ActMedObr.Designer.vb">
+      <DependentUpon>ActMedObr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActMedObr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ChkPrcIn.Designer.vb">
+      <DependentUpon>ChkPrcIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChkPrcIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CaratulaVal.Designer.vb">
+      <DependentUpon>CaratulaVal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CaratulaVal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnalPUnit.Designer.vb">
+      <DependentUpon>AnalPUnit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AnalPUnit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterAPVDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterAPVDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAPVDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterAPVDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PartObr.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PartObr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EqpComp.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EqpComp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EqpComp.vb">
+      <DependentUpon>EqpComp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EqpDataF.Designer.vb">
+      <DependentUpon>EqpDataF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EqpDataF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="APV2020Is.Designer.vb">
+      <DependentUpon>APV2020Is.vb</DependentUpon>
+    </Compile>
+    <Compile Include="APV2020Is.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActEqpComp.Designer.vb">
+      <DependentUpon>ActEqpComp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActEqpComp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActMMObr.Designer.vb">
+      <DependentUpon>ActMMObr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActMMObr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActMOComp.Designer.vb">
+      <DependentUpon>ActMOComp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActMOComp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActMMat.Designer.vb">
+      <DependentUpon>ActMMat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActMMat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActMatComp.Designer.vb">
+      <DependentUpon>ActMatComp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActMatComp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CfgAPV2020.Designer.vb">
+      <DependentUpon>CfgAPV2020.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CfgAPV2020.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActValObr.Designer.vb">
+      <DependentUpon>ActValObr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActValObr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActPresAPO.Designer.vb">
+      <DependentUpon>ActPresAPO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActPresAPO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IndicesPAC.Designer.vb">
+      <DependentUpon>IndicesPAC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IndicesPAC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterAPVDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterAPVDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAPVDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterAPVDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MatDataF.Designer.vb">
+      <DependentUpon>MatDataF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MatDataF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MasterAPVDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterAPVDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MasterAPVDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterAPVDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MODataF.Designer.vb">
+      <DependentUpon>MODataF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MODataF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="init_module.bas" />
+    <Compile Include="MasterAPVDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MasterAPVDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ActMedObr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActMedObr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActPresAPO.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActPresAPO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APV2020Mp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>APV2020Mp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AcercaDe.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AcercaDe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AbrirAPV..resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AbrirAPV..vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActBAPV2020.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActBAPV2020.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="actMEqp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>actMEqp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EqpDataF.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>EqpDataF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="APV2020Is.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>APV2020Is.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActEqpComp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActEqpComp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActMMObr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActMMObr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActMOComp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActMOComp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActMMat.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActMMat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActMatComp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActMatComp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CfgAPV2020.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CfgAPV2020.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActValObr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActValObr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChkPrcIn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ChkPrcIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaratulaVal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CaratulaVal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnalPUnit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AnalPUnit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DatosObr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DatosObr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreGObr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PreGObr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NvaPart.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NvaPart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PartCovenin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PartCovenin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IndicesPAC.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>IndicesPAC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatDataF.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MatDataF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MODataF.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MODataF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarObr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MostrarObr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="APP2020 LogoI.ico" />
+    <Content Include="MasterAPP.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MasterAPV.MDB">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\delOne.png" />
+    <None Include="Resources\delMany.png" />
+    <None Include="Resources\addOne.png" />
+    <None Include="Resources\addMany.png" />
+    <None Include="MasterMdO.xsc">
+      <DependentUpon>MasterMdO.xsd</DependentUpon>
+    </None>
+    <None Include="MasterMdO.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterMdO.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="MasterMdO.xss">
+      <DependentUpon>MasterMdO.xsd</DependentUpon>
+    </None>
+    <None Include="MasterEqp.xsc">
+      <DependentUpon>MasterEqp.xsd</DependentUpon>
+    </None>
+    <None Include="MasterEqp.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterEqp.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="MasterEqp.xss">
+      <DependentUpon>MasterEqp.xsd</DependentUpon>
+    </None>
+    <None Include="MasterTrans.xsc">
+      <DependentUpon>MasterTrans.xsd</DependentUpon>
+    </None>
+    <None Include="MasterTrans.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterTrans.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="MasterTrans.xss">
+      <DependentUpon>MasterTrans.xsd</DependentUpon>
+    </None>
+    <None Include="MasterMat.xsc">
+      <DependentUpon>MasterMat.xsd</DependentUpon>
+    </None>
+    <None Include="MasterMat.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterMat.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="MasterMat.xss">
+      <DependentUpon>MasterMat.xsd</DependentUpon>
+    </None>
+    <None Include="MasterPart.xsc">
+      <DependentUpon>MasterPart.xsd</DependentUpon>
+    </None>
+    <None Include="MasterPart.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterPart.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="MasterPart.xss">
+      <DependentUpon>MasterPart.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\APP2020NvaP.png" />
+    <None Include="Resources\APPCostos.png" />
+    <None Include="Resources\DatosObrAPP.png" />
+    <None Include="Resources\RestAPP.png" />
+    <None Include="Resources\BackupAPP.png" />
+    <None Include="Resources\ValAPP2020.png" />
+    <None Include="Resources\PrespAPP.png" />
+    <None Include="Resources\APP2020Fld.png" />
+    <None Include="Resources\APP2020Store.png" />
+    <None Include="Resources\APPConfGear.png" />
+    <None Include="Resources\APPLogoGray.png" />
+    <None Include="Resources\APPValUpd.png" />
+    <None Include="Resources\APPRetMed.png" />
+    <None Include="Resources\APPMedAdd.png" />
+    <None Include="Resources\APPLogoOrg.png" />
+    <None Include="Resources\APPLogoLBlue.png" />
+    <None Include="Resources\APPLogoGrn.png" />
+    <None Include="Resources\APPLogoGld.png" />
+    <None Include="Resources\APPLogoDBlue.png" />
+    <None Include="Resources\APPLogoBlk.png" />
+    <None Include="Resources\APPImportS.png" />
+    <None Include="Resources\APPImport.png" />
+    <None Include="Resources\APPExportSh.png" />
+    <None Include="Resources\APPExport.png" />
+    <None Include="Resources\APPexpExcel.png" />
+    <None Include="Resources\APPDSheet.png" />
+    <None Include="Resources\APPDataOut.png" />
+    <None Include="Resources\APPDataIn.png" />
+    <None Include="Resources\APPCostUp.png" />
+    <None Include="Resources\APPCostB.png" />
+    <None Include="Resources\APPCost.png" />
+    <None Include="Resources\APPConf.png" />
+    <None Include="Resources\APPCobr.png" />
+    <None Include="Resources\App2020.png" />
+    <None Include="Resources\APP2020 LogoI.png" />
+    <None Include="Resources\Presup01001.png" />
+    <None Include="Resources\NvaPartAPO.png" />
+    <None Include="Resources\COVENINGray.png" />
+    <None Include="PCovenin.xsc">
+      <DependentUpon>PCovenin.xsd</DependentUpon>
+    </None>
+    <None Include="PCovenin.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PCovenin.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="PCovenin.xss">
+      <DependentUpon>PCovenin.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\APOCovenin.png" />
+    <None Include="Resources\ObrUpd.png" />
+    <None Include="Resources\ObrDel.png" />
+    <None Include="Resources\ObrAdd.png" />
+    <None Include="Resources\CIV Logo B.png" />
+    <None Include="Resources\DObrUpd.png" />
+    <None Include="Resources\DObrNew.png" />
+    <None Include="AnPartidas.xsc">
+      <DependentUpon>AnPartidas.xsd</DependentUpon>
+    </None>
+    <None Include="AnPartidas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnPartidas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="AnPartidas.xss">
+      <DependentUpon>AnPartidas.xsd</DependentUpon>
+    </None>
+    <None Include="ObrasAPO.xsc">
+      <DependentUpon>ObrasAPO.xsd</DependentUpon>
+    </None>
+    <None Include="ObrasAPO.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ObrasAPO.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ObrasAPO.xss">
+      <DependentUpon>ObrasAPO.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\ResetTR.png" />
+    <None Include="Resources\ResetMT.png" />
+    <None Include="Resources\ResetMdO.png" />
+    <None Include="Resources\ResetEQ.png" />
+    <None Include="Resources\ExpandTR.png" />
+    <None Include="Resources\ExpandMT.png" />
+    <None Include="Resources\ExpandMdO.png" />
+    <None Include="Resources\ExpandEQ.png" />
+    <None Include="Resources\ConfVista.png" />
+    <None Include="Resources\ImpPart.png" />
+    <None Include="Resources\ExpPart.png" />
+    <None Include="Resources\NvaPart.png" />
+    <None Include="Resources\APOVal1.png" />
+    <None Include="Resources\ResetEqp.png" />
+    <None Include="Resources\ResetTra.png.png" />
+    <None Include="Resources\ResetMO.png" />
+    <None Include="Resources\ResetMat.png" />
+    <None Include="Resources\ExpandTra.png" />
+    <None Include="Resources\ExpandMO.png" />
+    <None Include="Resources\ExpandMat.png" />
+    <None Include="Resources\ExpandEqp.png" />
+    <None Include="Resources\NHojaAna.png" />
+    <None Include="Resources\ResPreAPO1.png" />
+    <None Include="Resources\dbbkp1.jpeg" />
+    <None Include="Resources\bkp211.png" />
+    <None Include="Resources\IEstHana.png" />
+    <None Include="Resources\EEstHana.png" />
+    <None Include="Resources\InsComp.png" />
+    <None Include="Resources\COVENIN9000.png" />
+    <None Include="TranspPU.xsc">
+      <DependentUpon>TranspPU.xsd</DependentUpon>
+    </None>
+    <None Include="TranspPU.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TranspPU.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="TranspPU.xss">
+      <DependentUpon>TranspPU.xsd</DependentUpon>
+    </None>
+    <None Include="ManoObraPU.xsc">
+      <DependentUpon>ManoObraPU.xsd</DependentUpon>
+    </None>
+    <None Include="ManoObraPU.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ManoObraPU.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ManoObraPU.xss">
+      <DependentUpon>ManoObraPU.xsd</DependentUpon>
+    </None>
+    <None Include="EquiposPU.xsc">
+      <DependentUpon>EquiposPU.xsd</DependentUpon>
+    </None>
+    <None Include="EquiposPU.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EquiposPU.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="EquiposPU.xss">
+      <DependentUpon>EquiposPU.xsd</DependentUpon>
+    </None>
+    <None Include="MaterialPU.xsc">
+      <DependentUpon>MaterialPU.xsd</DependentUpon>
+    </None>
+    <None Include="MaterialPU.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MaterialPU.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="MaterialPU.xss">
+      <DependentUpon>MaterialPU.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\AnaPreU.png" />
+    <None Include="Resources\CaratVal.png" />
+    <None Include="Resources\ExpPDF.png" />
+    <None Include="Resources\ExpExcel.png" />
+    <None Include="DataSet8.xsc">
+      <DependentUpon>DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet8.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet8.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet8.xss">
+      <DependentUpon>DataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet9.xsc">
+      <DependentUpon>DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet9.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet9.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet9.xss">
+      <DependentUpon>DataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="MasterAPVDataSet6.xsc">
+      <DependentUpon>MasterAPVDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="MasterAPVDataSet6.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterAPVDataSet6.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="MasterAPVDataSet6.xss">
+      <DependentUpon>MasterAPVDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\PriceChk.png" />
+    <None Include="DataSet7.xsc">
+      <DependentUpon>DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet7.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet7.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet7.xss">
+      <DependentUpon>DataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\MedicionAPO.png" />
+    <None Include="ComputosMat.xsc">
+      <DependentUpon>ComputosMat.xsd</DependentUpon>
+    </None>
+    <None Include="ComputosMat.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ComputosMat.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ComputosMat.xss">
+      <DependentUpon>ComputosMat.xsd</DependentUpon>
+    </None>
+    <None Include="ComputosEq.xsc">
+      <DependentUpon>ComputosEq.xsd</DependentUpon>
+    </None>
+    <None Include="ComputosEq.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ComputosEq.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ComputosEq.xss">
+      <DependentUpon>ComputosEq.xsd</DependentUpon>
+    </None>
+    <None Include="ComputosMO.xsc">
+      <DependentUpon>ComputosMO.xsd</DependentUpon>
+    </None>
+    <None Include="ComputosMO.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ComputosMO.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ComputosMO.xss">
+      <DependentUpon>ComputosMO.xsd</DependentUpon>
+    </None>
+    <None Include="ComputosTR.xsc">
+      <DependentUpon>ComputosTR.xsd</DependentUpon>
+    </None>
+    <None Include="ComputosTR.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ComputosTR.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="ComputosTR.xss">
+      <DependentUpon>ComputosTR.xsd</DependentUpon>
+    </None>
+    <None Include="PartObr.xsc">
+      <DependentUpon>PartObr.xsd</DependentUpon>
+    </None>
+    <None Include="PartObr.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PartObr.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="PartObr.xss">
+      <DependentUpon>PartObr.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Covenin.png" />
+    <None Include="Resources\ImportDExc.png" />
+    <None Include="Resources\ImportarAPO.png" />
+    <None Include="Resources\ExportHExc.png" />
+    <None Include="Resources\ExportarAPO.png" />
+    <None Include="Resources\APOValR.png" />
+    <None Include="Resources\APOValN.png" />
+    <None Include="Resources\APOVal.png" />
+    <None Include="MasterAPVDataSet5.xsc">
+      <DependentUpon>MasterAPVDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="MasterAPVDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterAPVDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MasterAPVDataSet5.xss">
+      <DependentUpon>MasterAPVDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\APO2020Hlp.png" />
+    <None Include="Resources\DBAPO2020.png" />
+    <None Include="Resources\CfgAPO2020.png" />
+    <None Include="Resources\APO2020Ylw1.png" />
+    <None Include="Resources\APO2020YLogo.png" />
+    <None Include="Resources\APO2020Silver1.png" />
+    <None Include="Resources\APO2020Red1.png" />
+    <None Include="Resources\APO2020Org1.png" />
+    <None Include="Resources\APO2020Open.png" />
+    <None Include="Resources\APO2020Logo-Scr1.png" />
+    <None Include="Resources\APO2020Logo1.png" />
+    <None Include="Resources\APO2020Grn1.png" />
+    <None Include="Resources\APO2020Blue1.png" />
+    <None Include="Resources\AcrobatRDR.png" />
+    <None Include="Resources\Presup011.png" />
+    <None Include="Resources\Pert1.png" />
+    <None Include="Resources\APO2020Silver.png" />
+    <None Include="Resources\TraEqAPO.png" />
+    <None Include="Resources\LleEqAPO.png" />
+    <None Include="Resources\ActEqAPO.png" />
+    <None Include="Resources\APOBseCal.png" />
+    <None Include="Resources\CdroCrre.png" />
+    <None Include="Resources\CobroAum.png" />
+    <None Include="Resources\ResPreAPO.png" />
+    <None Include="Resources\RestoreDB.png" />
+    <None Include="Resources\Restore01.png" />
+    <None Include="Resources\Presup02.png" />
+    <None Include="Resources\Presup01.png" />
+    <None Include="Resources\PeriodosAPO.png" />
+    <None Include="Resources\ObraRed.png" />
+    <None Include="Resources\ObraAPO.png" />
+    <None Include="Resources\MoneyBillR.png" />
+    <None Include="Resources\MeasureT01.png" />
+    <None Include="Resources\Measures.png" />
+    <None Include="Resources\MeasureR01.png" />
+    <None Include="Resources\DatosObr.png" />
+    <None Include="Resources\datos1.png" />
+    <None Include="Resources\BkpObra01.png" />
+    <None Include="Resources\bkp21.png" />
+    <None Include="Resources\APO2020Ylw.png" />
+    <None Include="Resources\APO2020Red.png" />
+    <None Include="Resources\APO2020Org.png" />
+    <None Include="Resources\APO2020Logo-Scr.png" />
+    <None Include="Resources\APO2020Logo.png" />
+    <None Include="Resources\APO2020Grn.png" />
+    <None Include="Resources\APO2020Blue.png" />
+    <None Include="Resources\ActValAPV.png" />
+    <None Include="DataSet4.xsc">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet4.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet4.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet4.xss">
+      <DependentUpon>DataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="MasterAPVDataSet4.xsc">
+      <DependentUpon>MasterAPVDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="MasterAPVDataSet4.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterAPVDataSet4.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="MasterAPVDataSet4.xss">
+      <DependentUpon>MasterAPVDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\LogoBCV.png" />
+    <None Include="Resources\HlpBook.png" />
+    <None Include="Resources\helpAPV.png" />
+    <None Include="Resources\DirAPV2020.png" />
+    <None Include="Resources\DBAPV2020.png" />
+    <None Include="Resources\ArrGo.png" />
+    <None Include="Resources\ArrCome.png" />
+    <None Include="Resources\USDollar.png" />
+    <None Include="Resources\BsSoberano.png" />
+    <None Include="Resources\TrMatCmp.png" />
+    <None Include="Resources\LlMatComp.png" />
+    <None Include="Resources\ActMatCmp.png" />
+    <None Include="DataSet3.xsc">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet3.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet3.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet3.xss">
+      <DependentUpon>DataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MasterAPVDataSet3.xsc">
+      <DependentUpon>MasterAPVDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MasterAPVDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterAPVDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MasterAPVDataSet3.xss">
+      <DependentUpon>MasterAPVDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\ActMat01.png" />
+    <None Include="Resources\Material1.png" />
+    <None Include="Resources\Material.png" />
+    <None Include="Resources\MatComp04.png" />
+    <None Include="Resources\MatCmp03.png" />
+    <None Include="Resources\MatCmp02.png" />
+    <None Include="Resources\MatCmp01.png" />
+    <None Include="Resources\mat07.png" />
+    <None Include="Resources\mat05.png" />
+    <None Include="Resources\mat04.png" />
+    <None Include="Resources\mat03.png" />
+    <None Include="Resources\contr01.png" />
+    <None Include="Resources\TraerMOCmp.png" />
+    <None Include="Resources\LLevarMOCmp.png" />
+    <None Include="Resources\ActMOCmp.png" />
+    <None Include="MasterAPVDataSet2.xsc">
+      <DependentUpon>MasterAPVDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MasterAPVDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterAPVDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MasterAPVDataSet2.xss">
+      <DependentUpon>MasterAPVDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\TraerEC.png" />
+    <None Include="Resources\LlevarEC.png" />
+    <None Include="Resources\ActEC.png" />
+    <None Include="EqpComp.xsc">
+      <DependentUpon>EqpComp.xsd</DependentUpon>
+    </None>
+    <None Include="EqpComp.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EqpComp.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="EqpComp.xss">
+      <DependentUpon>EqpComp.xsd</DependentUpon>
+    </None>
+    <None Include="MasterAPVDataSet1.xsc">
+      <DependentUpon>MasterAPVDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MasterAPVDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterAPVDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MasterAPVDataSet1.xss">
+      <DependentUpon>MasterAPVDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\APV2020LW1.png" />
+    <None Include="Resources\APV2020LW.png" />
+    <None Include="Resources\APVBckpG.png" />
+    <None Include="app.config" />
+    <None Include="MasterAPVDataSet.xsc">
+      <DependentUpon>MasterAPVDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MasterAPVDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterAPVDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="MasterAPVDataSet.xss">
+      <DependentUpon>MasterAPVDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\actMEqp.png" />
+    <None Include="Resources\OpenMat.png" />
+    <None Include="Resources\BaseAPV.png" />
+    <None Include="Resources\CDDown.png" />
+    <None Include="Resources\fldDel.png" />
+    <None Include="Resources\fldAdd.png" />
+    <None Include="Resources\Info.png" />
+    <None Include="Resources\APV Logo App1.png" />
+    <None Include="Resources\desdeAPV.png" />
+    <None Include="Resources\desdeLULO.png" />
+    <None Include="Resources\delMed.png" />
+    <None Include="Resources\editMed.png" />
+    <None Include="Resources\addMed.png" />
+    <None Include="Resources\newAPU.png" />
+    <None Include="Resources\editAPU.png" />
+    <None Include="Resources\OpenProy021.png" />
+    <None Include="Resources\actLPTotal.png" />
+    <None Include="Resources\Tools.png" />
+    <None Include="Resources\MSProyect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxMSFlexGridLib">
+      <Guid>{5E9E78A0-531B-11CF-91F6-C2863C385E30}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="LCC11">
+      <Guid>{EDCD5812-6A06-43C3-AFAC-46EF5D14E22C}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MSDATASRC1">
+      <Guid>{7C0FFAB0-CD84-11D0-949A-00A0C91110ED}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MSFlexGridLib">
+      <Guid>{5E9E78A0-531B-11CF-91F6-C2863C385E30}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Office2013CustomActionsLib">
+      <Guid>{AB4D3FA3-21B9-443C-886E-FC4A417D3E4D}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole1">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="StdType">
+      <Guid>{BEF6E001-A874-101A-8BBA-00AA00300CAB}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
